@@ -143,7 +143,7 @@ http_enum (){
                 for port in $(cat $loot/raw/http_found);do
 			mkdir $loot/http/$port
                         echo "[+] Firing up nikto on port $port"
-                        nikto -ask=no -h $IP:$port -T 123b | tee -a  $loot/http/$port/nitko
+                        nikto -ask=no -h $IP:$port -T 123b | tee -a  $loot/http/$port/nikto
 	                echo "[+] checking ssl for possible holes on port $port"
 			sslscan --show-certificate $IP:$port | tee -a $loot/http/$port/sslinfo &
 			echo "[+] Curling interesting files on port $port"
