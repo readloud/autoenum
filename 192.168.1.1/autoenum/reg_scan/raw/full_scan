@@ -1,0 +1,44 @@
+Starting Nmap 7.92 ( https://nmap.org ) at 2022-10-11 22:25 WIB
+Initiating Parallel DNS resolution of 1 host. at 22:25
+Completed Parallel DNS resolution of 1 host. at 22:25, 1.02s elapsed
+Initiating SYN Stealth Scan at 22:25
+Scanning gpon.net (192.168.1.1) [65535 ports]
+Discovered open port 80/tcp on 192.168.1.1
+Discovered open port 53/tcp on 192.168.1.1
+Discovered open port 443/tcp on 192.168.1.1
+Completed SYN Stealth Scan at 22:25, 7.04s elapsed (65535 total ports)
+Initiating OS detection (try #1) against gpon.net (192.168.1.1)
+Retrying OS detection (try #2) against gpon.net (192.168.1.1)
+Retrying OS detection (try #3) against gpon.net (192.168.1.1)
+Retrying OS detection (try #4) against gpon.net (192.168.1.1)
+Retrying OS detection (try #5) against gpon.net (192.168.1.1)
+Nmap scan report for gpon.net (192.168.1.1)
+Host is up (0.0013s latency).
+Not shown: 65531 closed tcp ports (reset)
+PORT    STATE    SERVICE
+23/tcp  filtered telnet
+53/tcp  open     domain
+80/tcp  open     http
+443/tcp open     https
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.92%E=4%D=10/11%OT=53%CT=1%CU=38741%PV=Y%DS=2%DC=I%G=Y%TM=63458A
+OS:F8%P=x86_64-pc-linux-gnu)SEQ(SP=101%GCD=1%ISR=10E%TI=Z%CI=RD%II=I%TS=7)O
+OS:PS(O1=M5B4ST11NW4%O2=M5B4ST11NW4%O3=M5B4NNT11NW4%O4=M5B4ST11NW4%O5=M5B4S
+OS:T11NW4%O6=M5B4ST11)WIN(W1=7120%W2=7120%W3=7120%W4=7120%W5=7120%W6=7120)E
+OS:CN(R=Y%DF=Y%T=40%W=7210%O=M5B4NNSNW4%CC=Y%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F
+OS:=AS%RD=0%Q=)T2(R=N)T3(R=N)T4(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T5
+OS:(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S=A%A=Z
+OS:%F=R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=
+OS:N%T=40%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=98C5%RUD=G)IE(R=Y%DFI=N%T=
+OS:40%CD=S)
+
+Uptime guess: 0.389 days (since Tue Oct 11 13:04:53 2022)
+Network Distance: 2 hops
+TCP Sequence Prediction: Difficulty=257 (Good luck!)
+IP ID Sequence Generation: All zeros
+
+Read data files from: /usr/bin/../share/nmap
+OS detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 20.02 seconds
+           Raw packets sent: 65649 (2.893MB) | Rcvd: 67032 (2.974MB)

@@ -1,0 +1,38 @@
+- Nikto v2.1.6
+---------------------------------------------------------------------------
++ Target IP:          192.168.1.1
++ Target Hostname:    192.168.1.1
++ Target Port:        443
+---------------------------------------------------------------------------
++ SSL Info:        Subject:  /C=CN/ST=JiangSu/L=NanJing/O=ZTE/CN=192.168.1.1/emailAddress=xiaoming@zte.com
+                   Ciphers:  ECDHE-RSA-AES256-GCM-SHA384
+                   Issuer:   /C=CN/ST=JiangSu/L=NanJing/O=ZTE/emailAddress=xiaoming@zte.com
++ Start Time:         2022-10-11 22:25:48 (GMT7)
+---------------------------------------------------------------------------
++ Server: No banner retrieved
++ The site uses SSL and the Strict-Transport-Security HTTP header is not defined.
++ The site uses SSL and Expect-CT header is not present.
++ No CGI Directories found (use '-C all' to force check all possible dirs)
++ 536 requests: 0 error(s) and 2 item(s) reported on remote host
++ End Time:           2022-10-11 22:27:15 (GMT7) (87 seconds)
+---------------------------------------------------------------------------
++ 1 host(s) tested
+- Nikto v2.1.6
+---------------------------------------------------------------------------
++ Target IP:          192.168.1.1
++ Target Hostname:    192.168.1.1
++ Target Port:        443
+---------------------------------------------------------------------------
++ SSL Info:        Subject:  /C=CN/ST=JiangSu/L=NanJing/O=ZTE/CN=192.168.1.1/emailAddress=xiaoming@zte.com
+                   Ciphers:  ECDHE-RSA-AES256-GCM-SHA384
+                   Issuer:   /C=CN/ST=JiangSu/L=NanJing/O=ZTE/emailAddress=xiaoming@zte.com
++ Start Time:         2022-10-12 10:24:01 (GMT7)
+---------------------------------------------------------------------------
++ Server: No banner retrieved
++ The site uses SSL and the Strict-Transport-Security HTTP header is not defined.
++ The site uses SSL and Expect-CT header is not present.
++ No CGI Directories found (use '-C all' to force check all possible dirs)
++ 536 requests: 0 error(s) and 2 item(s) reported on remote host
++ End Time:           2022-10-12 10:25:24 (GMT7) (83 seconds)
+---------------------------------------------------------------------------
++ 1 host(s) tested

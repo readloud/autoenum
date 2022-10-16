@@ -1,0 +1,18 @@
+- Nikto v2.1.6
+---------------------------------------------------------------------------
++ Target IP:          47.246.159.50
++ Target Hostname:    47.246.159.50
++ Target Port:        80
++ Start Time:         2022-10-12 10:51:16 (GMT7)
+---------------------------------------------------------------------------
++ Server: Tengine/Aserver
++ Retrieved via header: global-aserver033034048041.lazada-id.id35[web,302]
++ The anti-clickjacking X-Frame-Options header is not present.
++ The X-XSS-Protection header is not defined. This header can hint to the user agent to protect against some forms of XSS
++ The X-Content-Type-Options header is not set. This could allow the user agent to render the content of the site in a different fashion to the MIME type
++ Root page / redirects to: http://www.taobao.com/
++ No CGI Directories found (use '-C all' to force check all possible dirs)
++ 562 requests: 0 error(s) and 4 item(s) reported on remote host
++ End Time:           2022-10-12 10:51:20 (GMT7) (4 seconds)
+---------------------------------------------------------------------------
++ 1 host(s) tested

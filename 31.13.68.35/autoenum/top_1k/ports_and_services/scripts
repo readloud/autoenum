@@ -1,0 +1,23 @@
+Starting Nmap 7.92 ( https://nmap.org ) at 2022-10-12 16:59 WIB
+Nmap scan report for edge-star-mini-shv-03-xsp1.facebook.com (31.13.68.35)
+Host is up (0.019s latency).
+Not shown: 994 filtered tcp ports (no-response), 1 filtered tcp ports (admin-prohibited)
+PORT     STATE  SERVICE
+53/tcp   open   domain
+80/tcp   open   http
+|_http-title: Did not follow redirect to https://edge-star-mini-shv-03-xsp1.facebook.com/
+443/tcp  open   https
+|_ssl-date: TLS randomness does not represent time
+| ssl-cert: Subject: commonName=*.facebook.com/organizationName=Facebook, Inc./stateOrProvinceName=California/countryName=US
+| Subject Alternative Name: DNS:*.facebook.com, DNS:*.facebook.net, DNS:*.fbcdn.net, DNS:*.fbsbx.com, DNS:*.m.facebook.com, DNS:*.messenger.com, DNS:*.xx.fbcdn.net, DNS:*.xy.fbcdn.net, DNS:*.xz.fbcdn.net, DNS:facebook.com, DNS:messenger.com
+| Not valid before: 2022-07-21T00:00:00
+|_Not valid after:  2022-10-19T23:59:59
+| http-title: Facebook - Masuk atau Daftar
+|_Requested resource was https://www.facebook.com/
+| tls-alpn: 
+|   h2
+|_  http/1.1
+843/tcp  closed unknown
+5222/tcp closed xmpp-client
+
+Nmap done: 1 IP address (1 host up) scanned in 21.98 seconds

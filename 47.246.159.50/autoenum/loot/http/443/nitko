@@ -1,0 +1,150 @@
+- Nikto v2.1.6
+---------------------------------------------------------------------------
++ Target IP:          47.246.159.50
++ Target Hostname:    47.246.159.50
++ Target Port:        443
+---------------------------------------------------------------------------
++ SSL Info:        Subject:  /C=CN/ST=ZheJiang/L=HangZhou/O=Alibaba (China) Technology Co., Ltd./CN=*.lazada.com
+                   Altnames: *.lazada.com, *.lazada.co.id, *.sellercenter.lazada.com.ph, *.lazada.cn, *.sellercenter-vn-staging.lazada-seller.cn, *.education.lazada.vn, *.sellercenter-id.lazada-seller.cn, *.ut.lazada.com, *.lazada-s.vn, *.lazada.sg, *.sellercenter-staging.lazada.sg, *.fund-finnet.lazada.com, *.logistics.lazada.com, *.lazadapay.co.th, *.alimebot.lazada.com.my, *.redmart.com, *.sellercenter-my.lazada-seller.cn, *.workstation.lazada.com, *.education.lazada.co.id, *.lel.asia, *.llportal.in.th, *.sellercenter.lazada.sg, lazlogistics.sg, *.sellercenter-my-staging.lazada-seller.cn, *.video.lazada.com, lazada.com.ph, *.education.lazada.com.my, *.sellercenter-staging-redmart.lazada.sg, *.lazlogistics.ph, *.adsense.lazada.sg, *.sellercenter-ph.lazada-seller.cn, *.llportal.com.ph, *.sellercenter-staging.lazada.co.th, lazada.co.th, *.id.lazada.com, *.llportal.vn, *.order.lazada.sg, *.adsense.lazada.com.ph, *.scm.lazada.com, redmart.com, *.adsense.lazada.vn, *.h5accs.taobao.global, lazada.com.hk, *.lazada-s.co.id, lazada.co.id, *.lazlogistics.sg, *.zal.lazada.co.th, *.lazpay.lazada.sg, *.orion.lazada.com, *.sellercenter-staging.lazada.com.my, *.h5accs.taobao.hk, *.m.lazada.com, *.hec.lazada.com, *.store.lazada.sg, *.dev-arise-es.lazada.com, *.sellercenter-id-staging.lazada-seller.cn, lazada.jp, *.adsense.lazada.co.id, *.dev-arise-fr.lazada.com, *.sellercenter.lazada.co.id, *.lazada-s.com.ph, *.aut.lazada.com, *.feedback-pre.lazada.com, lazada.kr, *.sellercenter.lazada.vn, *.wallet-member-prod.lazada.com, *.fc.lazada.cn, *.sellercenter-staging.lazada.co.id, *.sellercenter-sg.lazada-seller.cn, *.sellercenter.lazada.co.th, *.sellercenter-staging.lazada.com.ph, *.sellercenter-th-staging.lazada-seller.cn, lazlogistics.vn, *.llportal.com.my, *.sgsgpostal.lazada.sg, *.my.lazada.com, *.lazada-s.sg, fxm.so, lazada.sg, *.x-space.lazada.com, *.adsense.lazada.com.my, *.education.lazada.sg, *.dev.lazada.com, *.fc.lazada.com, *.m.lazada.co.id, *.beta.lazada.com.my, *.lazada.com.ph, llportal.sg, lazlogistics.my, *.lazada-s.com.my, *.llportal.sg, *.datascience.lazada.com, *.education.lazada.com, *.fc.lazada.sg, *.api.lazada.com, *.geoserver.lazada.com, *.wallet-payment.lazada.com, *.admin2.lazada.com, *.lazlogistics.in.th, *.sellercenter-staging.lazada.vn, *.fxm.so, *.lazada-seller.cn, *.payment.lazada.com, msgacs-m.taobao.tw, *.rest.lazada.sg, lazada.cn, *.admin.lazada.com, *.lazada.com.my, *.alpha.redmart.com, *.lel.lazada.com, *.postal-internal.lazada.sg, *.adsense.lazada.co.th, *.sellercenter-ph-staging.lazada-seller.cn, lazlogistics.ph, *.sg.lazada.com, *.alimebot.lazada.com.ph, *.sellercenter-sg-staging.lazada-seller.cn, *.dev-arise.lazada.com, *.v.lazada.com, *.live.lazada.com, *.education.lazada.co.th, *.3plportal.lazada.com, *.h5accs.taobao.tw, *.lazlogistics.co.id, *.lazmall.lazada.com, *.sellercenter-th.lazada-seller.cn, msgacs-wapa.taobao.tw, *.community-staging.lazada.sg, *.pre.lazada.sg, *.lazada.co.th, *.sellercenter-vn.lazada-seller.cn, *.lazlogistics.my, lazada.vn, llportal.vn, *.lazlogistics.vn, *.education.lazada.com.ph, *.llportal.co.id, *.sellercenter.lazada.com.my, *.lazada.vn, lazada.com.my, lazada.com
+                   Ciphers:  ECDHE-ECDSA-AES128-GCM-SHA256
+                   Issuer:   /C=BE/O=GlobalSign nv-sa/CN=GlobalSign Organization Validation CA - SHA256 - G2
++ Start Time:         2022-10-12 10:50:34 (GMT7)
+---------------------------------------------------------------------------
++ Server: Tengine/Aserver
++ Cookie thw created without the secure flag
++ Cookie thw created without the httponly flag
++ The anti-clickjacking X-Frame-Options header is not present.
++ The X-XSS-Protection header is not defined. This header can hint to the user agent to protect against some forms of XSS
++ Uncommon header 'ufe-result' found, with multiple values: (A6,A6,)
++ The site uses SSL and the Strict-Transport-Security HTTP header is not defined.
++ The site uses SSL and Expect-CT header is not present.
++ The X-Content-Type-Options header is not set. This could allow the user agent to render the content of the site in a different fashion to the MIME type
++ No CGI Directories found (use '-C all' to force check all possible dirs)
++ Uncommon header 'eagleeye-traceid' found, with multiple values: (2122335816655466373875318e508e,2122335816655466373875318e508e,)
++ /crossdomain.xml contains 11 lines which include the following domains: *.taobao.com *.taobao.net *.taobaocdn.com *.alimama.com *.alimama.cn *.hippb.com.cn *.lianpi.com *.tbcdn.cn *.kbcdn.com *.koubei.com *.alicdn.com 
++ Server is using a wildcard certificate: *.lazada.com
++ Server is using a wildcard certificate: *.lazada.co.id
++ Server is using a wildcard certificate: *.sellercenter.lazada.com.ph
++ Server is using a wildcard certificate: *.lazada.cn
++ Server is using a wildcard certificate: *.sellercenter-vn-staging.lazada-seller.cn
++ Server is using a wildcard certificate: *.education.lazada.vn
++ Server is using a wildcard certificate: *.sellercenter-id.lazada-seller.cn
++ Server is using a wildcard certificate: *.ut.lazada.com
++ Server is using a wildcard certificate: *.lazada-s.vn
++ Server is using a wildcard certificate: *.lazada.sg
++ Server is using a wildcard certificate: *.sellercenter-staging.lazada.sg
++ Server is using a wildcard certificate: *.fund-finnet.lazada.com
++ Server is using a wildcard certificate: *.logistics.lazada.com
++ Server is using a wildcard certificate: *.lazadapay.co.th
++ Server is using a wildcard certificate: *.alimebot.lazada.com.my
++ Server is using a wildcard certificate: *.redmart.com
++ Server is using a wildcard certificate: *.sellercenter-my.lazada-seller.cn
++ Server is using a wildcard certificate: *.workstation.lazada.com
++ Server is using a wildcard certificate: *.education.lazada.co.id
++ Server is using a wildcard certificate: *.lel.asia
++ Server is using a wildcard certificate: *.llportal.in.th
++ Server is using a wildcard certificate: *.sellercenter.lazada.sg
++ Server is using a wildcard certificate: *.sellercenter-my-staging.lazada-seller.cn
++ Server is using a wildcard certificate: *.video.lazada.com
++ Server is using a wildcard certificate: *.education.lazada.com.my
++ Server is using a wildcard certificate: *.sellercenter-staging-redmart.lazada.sg
++ Server is using a wildcard certificate: *.lazlogistics.ph
++ Server is using a wildcard certificate: *.adsense.lazada.sg
++ Server is using a wildcard certificate: *.sellercenter-ph.lazada-seller.cn
++ Server is using a wildcard certificate: *.llportal.com.ph
++ Server is using a wildcard certificate: *.sellercenter-staging.lazada.co.th
++ Server is using a wildcard certificate: *.id.lazada.com
++ Server is using a wildcard certificate: *.llportal.vn
++ Server is using a wildcard certificate: *.order.lazada.sg
++ Server is using a wildcard certificate: *.adsense.lazada.com.ph
++ Server is using a wildcard certificate: *.scm.lazada.com
++ Server is using a wildcard certificate: *.adsense.lazada.vn
++ Server is using a wildcard certificate: *.h5accs.taobao.global
++ Server is using a wildcard certificate: *.lazada-s.co.id
++ Server is using a wildcard certificate: *.lazlogistics.sg
++ Server is using a wildcard certificate: *.zal.lazada.co.th
++ Server is using a wildcard certificate: *.lazpay.lazada.sg
++ Server is using a wildcard certificate: *.orion.lazada.com
++ Server is using a wildcard certificate: *.sellercenter-staging.lazada.com.my
++ Server is using a wildcard certificate: *.h5accs.taobao.hk
++ Server is using a wildcard certificate: *.m.lazada.com
++ Server is using a wildcard certificate: *.hec.lazada.com
++ Server is using a wildcard certificate: *.store.lazada.sg
++ Server is using a wildcard certificate: *.dev-arise-es.lazada.com
++ Server is using a wildcard certificate: *.sellercenter-id-staging.lazada-seller.cn
++ Server is using a wildcard certificate: *.adsense.lazada.co.id
++ Server is using a wildcard certificate: *.dev-arise-fr.lazada.com
++ Server is using a wildcard certificate: *.sellercenter.lazada.co.id
++ Server is using a wildcard certificate: *.lazada-s.com.ph
++ Server is using a wildcard certificate: *.aut.lazada.com
++ Server is using a wildcard certificate: *.feedback-pre.lazada.com
++ Server is using a wildcard certificate: *.sellercenter.lazada.vn
++ Server is using a wildcard certificate: *.wallet-member-prod.lazada.com
++ Server is using a wildcard certificate: *.fc.lazada.cn
++ Server is using a wildcard certificate: *.sellercenter-staging.lazada.co.id
++ Server is using a wildcard certificate: *.sellercenter-sg.lazada-seller.cn
++ Server is using a wildcard certificate: *.sellercenter.lazada.co.th
++ Server is using a wildcard certificate: *.sellercenter-staging.lazada.com.ph
++ Server is using a wildcard certificate: *.sellercenter-th-staging.lazada-seller.cn
++ Server is using a wildcard certificate: *.llportal.com.my
++ Server is using a wildcard certificate: *.sgsgpostal.lazada.sg
++ Server is using a wildcard certificate: *.my.lazada.com
++ Server is using a wildcard certificate: *.lazada-s.sg
++ Server is using a wildcard certificate: *.x-space.lazada.com
++ Server is using a wildcard certificate: *.adsense.lazada.com.my
++ Server is using a wildcard certificate: *.education.lazada.sg
++ Server is using a wildcard certificate: *.dev.lazada.com
++ Server is using a wildcard certificate: *.fc.lazada.com
++ Server is using a wildcard certificate: *.m.lazada.co.id
++ Server is using a wildcard certificate: *.beta.lazada.com.my
++ Server is using a wildcard certificate: *.lazada.com.ph
++ Server is using a wildcard certificate: *.lazada-s.com.my
++ Server is using a wildcard certificate: *.llportal.sg
++ Server is using a wildcard certificate: *.datascience.lazada.com
++ Server is using a wildcard certificate: *.education.lazada.com
++ Server is using a wildcard certificate: *.fc.lazada.sg
++ Server is using a wildcard certificate: *.api.lazada.com
++ Server is using a wildcard certificate: *.geoserver.lazada.com
++ Server is using a wildcard certificate: *.wallet-payment.lazada.com
++ Server is using a wildcard certificate: *.admin2.lazada.com
++ Server is using a wildcard certificate: *.lazlogistics.in.th
++ Server is using a wildcard certificate: *.sellercenter-staging.lazada.vn
++ Server is using a wildcard certificate: *.fxm.so
++ Server is using a wildcard certificate: *.lazada-seller.cn
++ Server is using a wildcard certificate: *.payment.lazada.com
++ Server is using a wildcard certificate: *.rest.lazada.sg
++ Server is using a wildcard certificate: *.admin.lazada.com
++ Server is using a wildcard certificate: *.lazada.com.my
++ Server is using a wildcard certificate: *.alpha.redmart.com
++ Server is using a wildcard certificate: *.lel.lazada.com
++ Server is using a wildcard certificate: *.postal-internal.lazada.sg
++ Server is using a wildcard certificate: *.adsense.lazada.co.th
++ Server is using a wildcard certificate: *.sellercenter-ph-staging.lazada-seller.cn
++ Server is using a wildcard certificate: *.sg.lazada.com
++ Server is using a wildcard certificate: *.alimebot.lazada.com.ph
++ Server is using a wildcard certificate: *.sellercenter-sg-staging.lazada-seller.cn
++ Server is using a wildcard certificate: *.dev-arise.lazada.com
++ Server is using a wildcard certificate: *.v.lazada.com
++ Server is using a wildcard certificate: *.live.lazada.com
++ Server is using a wildcard certificate: *.education.lazada.co.th
++ Server is using a wildcard certificate: *.3plportal.lazada.com
++ Server is using a wildcard certificate: *.h5accs.taobao.tw
++ Server is using a wildcard certificate: *.lazlogistics.co.id
++ Server is using a wildcard certificate: *.lazmall.lazada.com
++ Server is using a wildcard certificate: *.sellercenter-th.lazada-seller.cn
++ Server is using a wildcard certificate: *.community-staging.lazada.sg
++ Server is using a wildcard certificate: *.pre.lazada.sg
++ Server is using a wildcard certificate: *.lazada.co.th
++ Server is using a wildcard certificate: *.sellercenter-vn.lazada-seller.cn
++ Server is using a wildcard certificate: *.lazlogistics.my
++ Server is using a wildcard certificate: *.lazlogistics.vn
++ Server is using a wildcard certificate: *.education.lazada.com.ph
++ Server is using a wildcard certificate: *.llportal.co.id
++ Server is using a wildcard certificate: *.sellercenter.lazada.com.my
++ Server is using a wildcard certificate: *.lazada.vn
++ Hostname '47.246.159.50' does not match certificate's names: *.lazada.com, *.lazada.co.id, *.sellercenter.lazada.com.ph, *.lazada.cn, *.sellercenter-vn-staging.lazada-seller.cn, *.education.lazada.vn, *.sellercenter-id.lazada-seller.cn, *.ut.lazada.com, *.lazada-s.vn, *.lazada.sg, *.sellercenter-staging.lazada.sg, *.fund-finnet.lazada.com, *.logistics.lazada.com, *.lazadapay.co.th, *.alimebot.lazada.com.my, *.redmart.com, *.sellercenter-my.lazada-seller.cn, *.workstation.lazada.com, *.education.lazada.co.id, *.lel.asia, *.llportal.in.th, *.sellercenter.lazada.sg, lazlogistics.sg, *.sellercenter-my-staging.lazada-seller.cn, *.video.lazada.com, lazada.com.ph, *.education.lazada.com.my, *.sellercenter-staging-redmart.lazada.sg, *.lazlogistics.ph, *.adsense.lazada.sg, *.sellercenter-ph.lazada-seller.cn, *.llportal.com.ph, *.sellercenter-staging.lazada.co.th, lazada.co.th, *.id.lazada.com, *.llportal.vn, *.order.lazada.sg, *.adsense.lazada.com.ph, *.scm.lazada.com, redmart.com, *.adsense.lazada.vn, *.h5accs.taobao.global, lazada.com.hk, *.lazada-s.co.id, lazada.co.id, *.lazlogistics.sg, *.zal.lazada.co.th, *.lazpay.lazada.sg, *.orion.lazada.com, *.sellercenter-staging.lazada.com.my, *.h5accs.taobao.hk, *.m.lazada.com, *.hec.lazada.com, *.store.lazada.sg, *.dev-arise-es.lazada.com, *.sellercenter-id-staging.lazada-seller.cn, lazada.jp, *.adsense.lazada.co.id, *.dev-arise-fr.lazada.com, *.sellercenter.lazada.co.id, *.lazada-s.com.ph, *.aut.lazada.com, *.feedback-pre.lazada.com, lazada.kr, *.sellercenter.lazada.vn, *.wallet-member-prod.lazada.com, *.fc.lazada.cn, *.sellercenter-staging.lazada.co.id, *.sellercenter-sg.lazada-seller.cn, *.sellercenter.lazada.co.th, *.sellercenter-staging.lazada.com.ph, *.sellercenter-th-staging.lazada-seller.cn, lazlogistics.vn, *.llportal.com.my, *.sgsgpostal.lazada.sg, *.my.lazada.com, *.lazada-s.sg, fxm.so, lazada.sg, *.x-space.lazada.com, *.adsense.lazada.com.my, *.education.lazada.sg, *.dev.lazada.com, *.fc.lazada.com, *.m.lazada.co.id, *.beta.lazada.com.my, *.lazada.com.ph, llportal.sg, lazlogistics.my, *.lazada-s.com.my, *.llportal.sg, *.datascience.lazada.com, *.education.lazada.com, *.fc.lazada.sg, *.api.lazada.com, *.geoserver.lazada.com, *.wallet-payment.lazada.com, *.admin2.lazada.com, *.lazlogistics.in.th, *.sellercenter-staging.lazada.vn, *.fxm.so, *.lazada-seller.cn, *.payment.lazada.com, msgacs-m.taobao.tw, *.rest.lazada.sg, lazada.cn, *.admin.lazada.com, *.lazada.com.my, *.alpha.redmart.com, *.lel.lazada.com, *.postal-internal.lazada.sg, *.adsense.lazada.co.th, *.sellercenter-ph-staging.lazada-seller.cn, lazlogistics.ph, *.sg.lazada.com, *.alimebot.lazada.com.ph, *.sellercenter-sg-staging.lazada-seller.cn, *.dev-arise.lazada.com, *.v.lazada.com, *.live.lazada.com, *.education.lazada.co.th, *.3plportal.lazada.com, *.h5accs.taobao.tw, *.lazlogistics.co.id, *.lazmall.lazada.com, *.sellercenter-th.lazada-seller.cn, msgacs-wapa.taobao.tw, *.community-staging.lazada.sg, *.pre.lazada.sg, *.lazada.co.th, *.sellercenter-vn.lazada-seller.cn, *.lazlogistics.my, lazada.vn, llportal.vn, *.lazlogistics.vn, *.education.lazada.com.ph, *.llportal.co.id, *.sellercenter.lazada.com.my, *.lazada.vn, lazada.com.my, lazada.com
++ Uncommon header 'bxpunish' found, with contents: 1
++ 562 requests: 0 error(s) and 132 item(s) reported on remote host
++ End Time:           2022-10-12 10:51:11 (GMT7) (37 seconds)
+---------------------------------------------------------------------------
++ 1 host(s) tested

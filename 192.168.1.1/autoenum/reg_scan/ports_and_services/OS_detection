@@ -1,0 +1,15 @@
+Retrying OS detection (try #2) against gpon.net (192.168.1.1)
+Retrying OS detection (try #3) against gpon.net (192.168.1.1)
+Retrying OS detection (try #4) against gpon.net (192.168.1.1)
+Retrying OS detection (try #5) against gpon.net (192.168.1.1)
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+OS:SCAN(V=7.92%E=4%D=10/11%OT=53%CT=1%CU=38741%PV=Y%DS=2%DC=I%G=Y%TM=63458A
+OS:F8%P=x86_64-pc-linux-gnu)SEQ(SP=101%GCD=1%ISR=10E%TI=Z%CI=RD%II=I%TS=7)O
+OS:PS(O1=M5B4ST11NW4%O2=M5B4ST11NW4%O3=M5B4NNT11NW4%O4=M5B4ST11NW4%O5=M5B4S
+OS:T11NW4%O6=M5B4ST11)WIN(W1=7120%W2=7120%W3=7120%W4=7120%W5=7120%W6=7120)E
+OS:CN(R=Y%DF=Y%T=40%W=7210%O=M5B4NNSNW4%CC=Y%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F
+OS:=AS%RD=0%Q=)T2(R=N)T3(R=N)T4(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T5
+OS:(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S=A%A=Z
+OS:%F=R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=
+OS:N%T=40%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=98C5%RUD=G)IE(R=Y%DFI=N%T=
+OS:40%CD=S)

@@ -1,0 +1,14 @@
+uniscan -u http://31.13.68.35 -qweds
+sslscan --show-certificate 31.13.68.35:80 
+nikto -h 31.13.68.35
+gobuster dir -re -t 45 -u 31.13.68.35 -w /usr/share/wordlists/dirb/common.txt
+curl -sSiK 31.13.68.35
+curl -sSiK 31.13.68.35/robots.txt
+whatweb -v -a 3 31.13.68.35
+uniscan -u http://31.13.68.35 -qweds
+sslscan --show-certificate 31.13.68.35:80 
+nikto -h 31.13.68.35
+gobuster dir -re -t 45 -u 31.13.68.35 -w /usr/share/wordlists/dirb/common.txt
+curl -sSiK 31.13.68.35
+curl -sSiK 31.13.68.35/robots.txt
+whatweb -v -a 3 31.13.68.35

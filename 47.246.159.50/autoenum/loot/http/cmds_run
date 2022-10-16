@@ -1,0 +1,7 @@
+uniscan -u http://47.246.159.50 -qweds
+sslscan --show-certificate 47.246.159.50:80 
+nikto -h 47.246.159.50
+gobuster dir -re -t 45 -u 47.246.159.50 -w /usr/share/wordlists/dirb/common.txt
+curl -sSiK 47.246.159.50
+curl -sSiK 47.246.159.50/robots.txt
+whatweb -v -a 3 47.246.159.50

@@ -1,0 +1,3 @@
+53/tcp  open     domain    Unbound
+80/tcp  open     http
+443/tcp open     ssl/https

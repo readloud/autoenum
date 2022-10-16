@@ -1,0 +1,87 @@
+Starting Nmap 7.92 ( https://nmap.org ) at 2022-10-12 11:43 WIB
+Nmap scan report for edge-star-mini-shv-03-xsp1.facebook.com (31.13.68.35)
+Host is up (0.020s latency).
+Not shown: 994 filtered tcp ports (no-response), 1 filtered tcp ports (admin-prohibited)
+PORT     STATE  SERVICE     VERSION
+53/tcp   open   domain      (generic dns response: NOTIMP)
+80/tcp   open   http        proxygen-bolt
+443/tcp  open   ssl/https
+843/tcp  closed unknown
+5222/tcp closed xmpp-client
+3 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port53-TCP:V=7.92%I=7%D=10/12%Time=63464605%P=x86_64-pc-linux-gnu%r(DNS
+SF:StatusRequestTCP,E,"\0\x0c\0\0\x90\x04\0\0\0\0\0\0\0\0");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port80-TCP:V=7.92%I=7%D=10/12%Time=634645FB%P=x86_64-pc-linux-gnu%r(Get
+SF:Request,B3,"HTTP/1\.1\x20301\x20Moved\x20Permanently\r\nLocation:\x20ht
+SF:tps:///\r\nContent-Type:\x20text/plain\r\nServer:\x20proxygen-bolt\r\nD
+SF:ate:\x20Wed,\x2012\x20Oct\x202022\x2004:43:39\x20GMT\r\nConnection:\x20
+SF:close\r\nContent-Length:\x200\r\n\r\n")%r(HTTPOptions,B3,"HTTP/1\.1\x20
+SF:301\x20Moved\x20Permanently\r\nLocation:\x20https:///\r\nContent-Type:\
+SF:x20text/plain\r\nServer:\x20proxygen-bolt\r\nDate:\x20Wed,\x2012\x20Oct
+SF:\x202022\x2004:43:39\x20GMT\r\nConnection:\x20close\r\nContent-Length:\
+SF:x200\r\n\r\n")%r(RTSPRequest,C21,"HTTP/1\.1\x20400\x20Bad\x20Request\r\
+SF:nContent-Type:\x20text/html;\x20charset=utf-8\r\nDate:\x20Wed,\x2012\x2
+SF:0Oct\x202022\x2004:43:39\x20GMT\r\nConnection:\x20close\r\nContent-Leng
+SF:th:\x202959\r\n\r\n<!DOCTYPE\x20html>\n<html\x20lang=\"en\"\x20id=\"fac
+SF:ebook\">\n\x20\x20<head>\n\x20\x20\x20\x20<title>Facebook\x20\|\x20Erro
+SF:r</title>\n\x20\x20\x20\x20<meta\x20charset=\"utf-8\">\n\x20\x20\x20\x2
+SF:0<meta\x20http-equiv=\"cache-control\"\x20content=\"no-cache\">\n\x20\x
+SF:20\x20\x20<meta\x20http-equiv=\"cache-control\"\x20content=\"no-store\"
+SF:>\n\x20\x20\x20\x20<meta\x20http-equiv=\"cache-control\"\x20content=\"m
+SF:ax-age=0\">\n\x20\x20\x20\x20<meta\x20http-equiv=\"expires\"\x20content
+SF:=\"-1\">\n\x20\x20\x20\x20<meta\x20http-equiv=\"pragma\"\x20content=\"n
+SF:o-cache\">\n\x20\x20\x20\x20<meta\x20name=\"robots\"\x20content=\"noind
+SF:ex,nofollow\">\n\x20\x20\x20\x20<style>\n\x20\x20\x20\x20\x20\x20html,\
+SF:x20body\x20{\n\x20\x20\x20\x20\x20\x20\x20\x20color:\x20#141823;\n\x20\
+SF:x20\x20\x20\x20\x20\x20\x20background-color:\x20#e9eaed;\n\x20\x20\x20\
+SF:x20\x20\x20\x20\x20font-family:\x20Helvetica,\x20Lucida\x20Grande,\x20A
+SF:rial,\n\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20
+SF:\x20\x20\x20\x20\x20Tahoma,\x20Verdana,\x20sans-serif;\n\x20\x20\x20\x2
+SF:0\x20\x20\x20\x20margin:\x200;\n\x20\x20\x20\x20\x20\x20\x20\x20padding
+SF::\x200;\n\x20\x20\x20\x20\x20\x20\x20\x20text-align:\x20center;\n\x20\x
+SF:20\x20\x20\x20\x20}\n\n\x20\x20\x20\x20\x20\x20#header\x20{\n\x20\x20\x
+SF:20\x20\x20\x20\x20\x20height:\x2030px;\n\x20\x20\x20\x20\x20\x20\x20\x2
+SF:0");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port443-TCP:V=7.92%T=SSL%I=7%D=10/12%Time=63464602%P=x86_64-pc-linux-gn
+SF:u%r(GetRequest,16F,"HTTP/1\.1\x20301\x20Moved\x20Permanently\r\nVary:\x
+SF:20Accept-Encoding\r\nLocation:\x20https://www\.facebook\.com/\r\nConten
+SF:t-Type:\x20text/html;\x20charset=\"utf-8\"\r\nX-FB-Debug:\x20FIiQsRiXTP
+SF:U1toZh\+Mabt4dDTTBvzAnuc6zdE4SKxwFWtXs5LqwzvxxUj5Ap3V7Ww7sbMs41if8HPo59
+SF:muVieA==\r\nDate:\x20Wed,\x2012\x20Oct\x202022\x2004:43:45\x20GMT\r\nAl
+SF:t-Svc:\x20h3=\":443\";\x20ma=86400,\x20h3-29=\":443\";\x20ma=86400\r\nC
+SF:onnection:\x20close\r\nContent-Length:\x200\r\n\r\n")%r(HTTPOptions,186
+SF:,"HTTP/1\.1\x20302\x20Found\r\nVary:\x20Accept-Encoding\r\nLocation:\x2
+SF:0https://www\.facebook\.com/unsupportedbrowser\r\nContent-Type:\x20text
+SF:/html;\x20charset=\"utf-8\"\r\nX-FB-Debug:\x20uVUbZMJv9S4xzso8TJKPbztb\
+SF:+JJ8120dhqKWMYMHD5R7RUb9ziUrQoExdzfIKWX/Pq2R\+VHcUKTG32HPqjheew==\r\nDa
+SF:te:\x20Wed,\x2012\x20Oct\x202022\x2004:43:46\x20GMT\r\nPriority:\x20u=3
+SF:,i\r\nAlt-Svc:\x20h3=\":443\";\x20ma=86400,\x20h3-29=\":443\";\x20ma=86
+SF:400\r\nConnection:\x20close\r\nContent-Length:\x200\r\n\r\n")%r(RPCChec
+SF:k,C21,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-Type:\x20text/html
+SF:;\x20charset=utf-8\r\nDate:\x20Wed,\x2012\x20Oct\x202022\x2004:43:51\x2
+SF:0GMT\r\nConnection:\x20close\r\nContent-Length:\x202959\r\n\r\n<!DOCTYP
+SF:E\x20html>\n<html\x20lang=\"en\"\x20id=\"facebook\">\n\x20\x20<head>\n\
+SF:x20\x20\x20\x20<title>Facebook\x20\|\x20Error</title>\n\x20\x20\x20\x20
+SF:<meta\x20charset=\"utf-8\">\n\x20\x20\x20\x20<meta\x20http-equiv=\"cach
+SF:e-control\"\x20content=\"no-cache\">\n\x20\x20\x20\x20<meta\x20http-equ
+SF:iv=\"cache-control\"\x20content=\"no-store\">\n\x20\x20\x20\x20<meta\x2
+SF:0http-equiv=\"cache-control\"\x20content=\"max-age=0\">\n\x20\x20\x20\x
+SF:20<meta\x20http-equiv=\"expires\"\x20content=\"-1\">\n\x20\x20\x20\x20<
+SF:meta\x20http-equiv=\"pragma\"\x20content=\"no-cache\">\n\x20\x20\x20\x2
+SF:0<meta\x20name=\"robots\"\x20content=\"noindex,nofollow\">\n\x20\x20\x2
+SF:0\x20<style>\n\x20\x20\x20\x20\x20\x20html,\x20body\x20{\n\x20\x20\x20\
+SF:x20\x20\x20\x20\x20color:\x20#141823;\n\x20\x20\x20\x20\x20\x20\x20\x20
+SF:background-color:\x20#e9eaed;\n\x20\x20\x20\x20\x20\x20\x20\x20font-fam
+SF:ily:\x20Helvetica,\x20Lucida\x20Grande,\x20Arial,\n\x20\x20\x20\x20\x20
+SF:\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Tahoma,
+SF:\x20Verdana,\x20sans-serif;\n\x20\x20\x20\x20\x20\x20\x20\x20margin:\x2
+SF:00;\n\x20\x20\x20\x20\x20\x20\x20\x20padding:\x200;\n\x20\x20\x20\x20\x
+SF:20\x20\x20\x20text-align:\x20center;\n\x20\x20\x20\x20\x20\x20}\n\n\x20
+SF:\x20\x20\x20\x20\x20#header\x20{\n\x20\x20\x20\x20\x20\x20\x20\x20heigh
+SF:t:\x2030px;\n\x20\x20\x20\x20\x20\x20\x20\x20");
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 27.83 seconds

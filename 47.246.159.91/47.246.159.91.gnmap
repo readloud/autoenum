@@ -1,0 +1,4 @@
+# Nmap 7.92 scan initiated Sun Oct 16 20:15:31 2022 as: nmap -p80,443 -sV -sC -T4 -Pn -oA 47.246.159.91 47.246.159.91
+Host: 47.246.159.91 ()	Status: Up
+Host: 47.246.159.91 ()	Ports: 80/open/tcp//http//Tengine httpd Aserver/, 443/open/tcp//ssl|http//Tengine httpd Aserver/
+# Nmap done at Sun Oct 16 20:15:47 2022 -- 1 IP address (1 host up) scanned in 15.53 seconds

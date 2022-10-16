@@ -1,0 +1,25 @@
+# Nmap 7.92 scan initiated Sun Oct 16 20:15:31 2022 as: nmap -p80,443 -sV -sC -T4 -Pn -oA 47.246.159.91 47.246.159.91
+Nmap scan report for 47.246.159.91
+Host is up (0.0072s latency).
+
+PORT    STATE SERVICE  VERSION
+80/tcp  open  http     Tengine httpd Aserver
+|_http-title: Did not follow redirect to http://www.taobao.com/
+|_http-server-header: Tengine/Aserver
+443/tcp open  ssl/http Tengine httpd Aserver
+|_http-title: 500 Internal Server Error
+| ssl-cert: Subject: commonName=*.lazada.com/organizationName=Alibaba (China) Technology Co., Ltd./stateOrProvinceName=ZheJiang/countryName=CN
+| Subject Alternative Name: DNS:*.lazada.com, DNS:*.lazada.co.id, DNS:*.sellercenter.lazada.com.ph, DNS:*.lazada.cn, DNS:*.sellercenter-vn-staging.lazada-seller.cn, DNS:*.education.lazada.vn, DNS:*.sellercenter-id.lazada-seller.cn, DNS:*.ut.lazada.com, DNS:*.lazada-s.vn, DNS:*.lazada.sg, DNS:*.sellercenter-staging.lazada.sg, DNS:*.fund-finnet.lazada.com, DNS:*.logistics.lazada.com, DNS:*.lazadapay.co.th, DNS:*.alimebot.lazada.com.my, DNS:*.redmart.com, DNS:*.sellercenter-my.lazada-seller.cn, DNS:*.workstation.lazada.com, DNS:*.education.lazada.co.id, DNS:*.lel.asia, DNS:*.llportal.in.th, DNS:*.sellercenter.lazada.sg, DNS:lazlogistics.sg, DNS:*.sellercenter-my-staging.lazada-seller.cn, DNS:*.video.lazada.com, DNS:lazada.com.ph, DNS:*.education.lazada.com.my, DNS:*.sellercenter-staging-redmart.lazada.sg, DNS:*.lazlogistics.ph, DNS:*.adsense.lazada.sg, DNS:*.sellercenter-ph.lazada-seller.cn, DNS:*.llportal.com.ph, DNS:*.sellercenter-staging.lazada.co.th, DNS:lazada.co.th, DNS:*.id.lazada.com, DNS:*.llportal.vn, DNS:*.order.lazada.sg, DNS:*.adsense.lazada.com.ph, DNS:*.scm.lazada.com, DNS:redmart.com, DNS:*.adsense.lazada.vn, DNS:*.h5accs.taobao.global, DNS:lazada.com.hk, DNS:*.lazada-s.co.id, DNS:lazada.co.id, DNS:*.lazlogistics.sg, DNS:*.zal.lazada.co.th, DNS:*.lazpay.lazada.sg, DNS:*.orion.lazada.com, DNS:*.sellercenter-staging.lazada.com.my, DNS:*.h5accs.taobao.hk, DNS:*.m.lazada.com, DNS:*.hec.lazada.com, DNS:*.store.lazada.sg, DNS:*.dev-arise-es.lazada.com, DNS:*.sellercenter-id-staging.lazada-seller.cn, DNS:lazada.jp, DNS:*.adsense.lazada.co.id, DNS:*.dev-arise-fr.lazada.com, DNS:*.sellercenter.lazada.co.id, DNS:*.lazada-s.com.ph, DNS:*.aut.lazada.com, DNS:*.feedback-pre.lazada.com, DNS:lazada.kr, DNS:*.sellercenter.lazada.vn, DNS:*.wallet-member-prod.lazada.com, DNS:*.fc.lazada.cn, DNS:*.sellercenter-staging.lazada.co.id, DNS:*.sellercenter-sg.lazada-seller.cn, DNS:*.sellercenter.lazada.co.th, DNS:*.sellercenter-staging.lazada.com.ph, DNS:*.sellercenter-th-staging.lazada-seller.cn, DNS:lazlogistics.vn, DNS:*.llportal.com.my, DNS:*.sgsgpostal.lazada.sg, DNS:*.my.lazada.com, DNS:*.lazada-s.sg, DNS:fxm.so, DNS:lazada.sg, DNS:*.x-space.lazada.com, DNS:*.adsense.lazada.com.my, DNS:*.education.lazada.sg, DNS:*.dev.lazada.com, DNS:*.fc.lazada.com, DNS:*.m.lazada.co.id, DNS:*.beta.lazada.com.my, DNS:*.lazada.com.ph, DNS:llportal.sg, DNS:lazlogistics.my, DNS:*.lazada-s.com.my, DNS:*.llportal.sg, DNS:*.datascience.lazada.com, DNS:*.education.lazada.com, DNS:*.fc.lazada.sg, DNS:*.api.lazada.com, DNS:*.geoserver.lazada.com, DNS:*.wallet-payment.lazada.com, DNS:*.admin2.lazada.com, DNS:*.lazlogistics.in.th, DNS:*.sellercenter-staging.lazada.vn, DNS:*.fxm.so, DNS:*.lazada-seller.cn, DNS:*.payment.lazada.com, DNS:msgacs-m.taobao.tw, DNS:*.rest.lazada.sg, DNS:lazada.cn, DNS:*.admin.lazada.com, DNS:*.lazada.com.my, DNS:*.alpha.redmart.com, DNS:*.lel.lazada.com, DNS:*.postal-internal.lazada.sg, DNS:*.adsense.lazada.co.th, DNS:*.sellercenter-ph-staging.lazada-seller.cn, DNS:lazlogistics.ph, DNS:*.sg.lazada.com, DNS:*.alimebot.lazada.com.ph, DNS:*.sellercenter-sg-staging.lazada-seller.cn, DNS:*.dev-arise.lazada.com, DNS:*.v.lazada.com, DNS:*.live.lazada.com, DNS:*.education.lazada.co.th, DNS:*.3plportal.lazada.com, DNS:*.h5accs.taobao.tw, DNS:*.lazlogistics.co.id, DNS:*.lazmall.lazada.com, DNS:*.sellercenter-th.lazada-seller.cn, DNS:msgacs-wapa.taobao.tw, DNS:*.community-staging.lazada.sg, DNS:*.pre.lazada.sg, DNS:*.lazada.co.th, DNS:*.sellercenter-vn.lazada-seller.cn, DNS:*.lazlogistics.my, DNS:lazada.vn, DNS:llportal.vn, DNS:*.lazlogistics.vn, DNS:*.education.lazada.com.ph, DNS:*.llportal.co.id, DNS:*.sellercenter.lazada.com.my, DNS:*.lazada.vn, DNS:lazada.com.my, DNS:lazada.com
+| Not valid before: 2022-08-15T10:02:05
+|_Not valid after:  2023-06-25T10:56:01
+| tls-nextprotoneg: 
+|   h2
+|_  http/1.1
+|_http-server-header: Tengine/Aserver
+| tls-alpn: 
+|   h2
+|_  http/1.1
+|_ssl-date: TLS randomness does not represent time
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sun Oct 16 20:15:47 2022 -- 1 IP address (1 host up) scanned in 15.53 seconds

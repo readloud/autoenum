@@ -1,0 +1,60 @@
+HTTP/1.1 400 Bad Request
+Connection: close
+Content-Type: text/html; charset=iso-8859-1
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Content-Security-Policy: default-src 'self' 'unsafe-inline' 'unsafe-eval' data:
+Cache-Control: no-cache,no-store
+Pragma: no-cache
+
+                                              <html>
+                                              <head><title>400 Bad Request</title></head>
+                                              <body bgcolor="#FFFFFF" text="#000000" link="#2020ff" vlink="#4040cc">
+                                              <h2>400 Bad Request</h2>
+Your request has bad syntax or is inherently impossible to satisfy.
+<div style="display:none">
+<ajax_response_xml_root>
+<IF_ERRORSTR>SessionTimeout</IF_ERRORSTR>
+<IF_ERRORPARAM>SUCC</IF_ERRORPARAM>
+<IF_ERRORTYPE>SUCC</IF_ERRORTYPE>
+</ajax_response_xml_root>
+<span>Padding so that MSIE deigns to show this error instead of its own canned one.</span>
+<span>Padding so that MSIE deigns to show this error instead of its own canned one.</span>
+<span>Padding so that MSIE deigns to show this error instead of its own canned one.</span>
+<span>Padding so that MSIE deigns to show this error instead of its own canned one.</span>
+<span>Padding so that MSIE deigns to show this error instead of its own canned one.</span>
+<span>Padding so that MSIE deigns to show this error instead of its own canned one.</span>
+</div>
+<hr />
+</body>
+</html>
+HTTP/1.1 400 Bad Request
+Connection: close
+Content-Type: text/html; charset=iso-8859-1
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Content-Security-Policy: default-src 'self' 'unsafe-inline' 'unsafe-eval' data:
+Cache-Control: no-cache,no-store
+Pragma: no-cache
+
+                                              <html>
+                                              <head><title>400 Bad Request</title></head>
+                                              <body bgcolor="#FFFFFF" text="#000000" link="#2020ff" vlink="#4040cc">
+                                              <h2>400 Bad Request</h2>
+Your request has bad syntax or is inherently impossible to satisfy.
+<div style="display:none">
+<ajax_response_xml_root>
+<IF_ERRORSTR>SessionTimeout</IF_ERRORSTR>
+<IF_ERRORPARAM>SUCC</IF_ERRORPARAM>
+<IF_ERRORTYPE>SUCC</IF_ERRORTYPE>
+</ajax_response_xml_root>
+<span>Padding so that MSIE deigns to show this error instead of its own canned one.</span>
+<span>Padding so that MSIE deigns to show this error instead of its own canned one.</span>
+<span>Padding so that MSIE deigns to show this error instead of its own canned one.</span>
+<span>Padding so that MSIE deigns to show this error instead of its own canned one.</span>
+<span>Padding so that MSIE deigns to show this error instead of its own canned one.</span>
+<span>Padding so that MSIE deigns to show this error instead of its own canned one.</span>
+</div>
+<hr />
+</body>
+</html>

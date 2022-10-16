@@ -1,0 +1,26 @@
+- Nikto v2.1.6
+---------------------------------------------------------------------------
++ Target IP:          192.168.1.1
++ Target Hostname:    192.168.1.1
++ Target Port:        80
++ Start Time:         2022-10-11 22:27:18 (GMT7)
+---------------------------------------------------------------------------
++ Server: No banner retrieved
++ No CGI Directories found (use '-C all' to force check all possible dirs)
++ Scan terminated:  21 error(s) and 0 item(s) reported on remote host
++ End Time:           2022-10-11 22:27:22 (GMT7) (4 seconds)
+---------------------------------------------------------------------------
++ 1 host(s) tested
+- Nikto v2.1.6
+---------------------------------------------------------------------------
++ Target IP:          192.168.1.1
++ Target Hostname:    192.168.1.1
++ Target Port:        80
++ Start Time:         2022-10-12 10:25:28 (GMT7)
+---------------------------------------------------------------------------
++ Server: No banner retrieved
++ No CGI Directories found (use '-C all' to force check all possible dirs)
++ Scan terminated:  20 error(s) and 0 item(s) reported on remote host
++ End Time:           2022-10-12 10:25:33 (GMT7) (5 seconds)
+---------------------------------------------------------------------------
++ 1 host(s) tested

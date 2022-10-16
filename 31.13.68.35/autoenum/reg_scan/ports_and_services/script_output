@@ -1,0 +1,17 @@
+PORT     STATE  SERVICE
+53/tcp   open   domain
+80/tcp   open   http
+443/tcp  open   https
+843/tcp  closed unknown
+5222/tcp closed xmpp-client
+5228/tcp closed hpvroom
+8883/tcp closed secure-mqtt
+OS fingerprint not ideal because: Didn't receive UDP response. Please try again with -sSU
+No OS matches for host
+Uptime guess: 39.497 days (since Fri Sep  2 23:49:55 2022)
+TCP Sequence Prediction: Difficulty=253 (Good luck!)
+IP ID Sequence Generation: Randomized
+
+Read data files from: /usr/bin/../share/nmap
+OS detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 122.52 seconds

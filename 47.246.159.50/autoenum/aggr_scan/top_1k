@@ -1,0 +1,10 @@
+Starting Nmap 7.92 ( https://nmap.org ) at 2022-10-12 10:47 WIB
+Nmap scan report for 47.246.159.50
+Host is up (0.0080s latency).
+Not shown: 997 filtered tcp ports (no-response), 1 filtered tcp ports (admin-prohibited)
+PORT    STATE SERVICE  VERSION
+80/tcp  open  http     Tengine httpd Aserver
+443/tcp open  ssl/http Tengine httpd Aserver
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 18.18 seconds

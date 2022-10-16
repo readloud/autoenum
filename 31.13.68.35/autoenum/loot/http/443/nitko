@@ -1,0 +1,88 @@
+- Nikto v2.1.6
+---------------------------------------------------------------------------
++ Target IP:          31.13.68.35
++ Target Hostname:    31.13.68.35
++ Target Port:        443
+---------------------------------------------------------------------------
++ SSL Info:        Subject:  /C=US/ST=California/L=Menlo Park/O=Facebook, Inc./CN=*.facebook.com
+                   Altnames: *.facebook.com, *.facebook.net, *.fbcdn.net, *.fbsbx.com, *.m.facebook.com, *.messenger.com, *.xx.fbcdn.net, *.xy.fbcdn.net, *.xz.fbcdn.net, facebook.com, messenger.com
+                   Ciphers:  TLS_CHACHA20_POLY1305_SHA256
+                   Issuer:   /C=US/O=DigiCert Inc/OU=www.digicert.com/CN=DigiCert SHA2 High Assurance Server CA
++ Start Time:         2022-10-12 11:46:01 (GMT7)
+---------------------------------------------------------------------------
++ Server: No banner retrieved
++ The anti-clickjacking X-Frame-Options header is not present.
++ The X-XSS-Protection header is not defined. This header can hint to the user agent to protect against some forms of XSS
++ Uncommon header 'alt-svc' found, with contents: h3=":443"; ma=86400, h3-29=":443"; ma=86400
++ Uncommon header 'x-fb-debug' found, with contents: JDK2+Qxl2kM5qgHZFbwsZW+EXSQ57cP42EmKyJtlHjvdAia9N9Xhspb9uLpHdOrZA4404GMPCaXuUSkZArYcQA==
++ The site uses SSL and the Strict-Transport-Security HTTP header is not defined.
++ The site uses SSL and Expect-CT header is not present.
++ The X-Content-Type-Options header is not set. This could allow the user agent to render the content of the site in a different fashion to the MIME type
++ Root page / redirects to: https://www.facebook.com/
++ Uncommon header 'priority' found, with contents: u=3,i
++ No CGI Directories found (use '-C all' to force check all possible dirs)
++ X-XSS-Protection header has been set to disable XSS Protection. There is unlikely to be a good reason for this.
++ Uncommon header 'cross-origin-opener-policy' found, with contents: same-origin-allow-popups
++ Server is using a wildcard certificate: *.facebook.com
++ Server is using a wildcard certificate: *.facebook.net
++ Server is using a wildcard certificate: *.fbcdn.net
++ Server is using a wildcard certificate: *.fbsbx.com
++ Server is using a wildcard certificate: *.m.facebook.com
++ Server is using a wildcard certificate: *.messenger.com
++ Server is using a wildcard certificate: *.xx.fbcdn.net
++ Server is using a wildcard certificate: *.xy.fbcdn.net
++ Server is using a wildcard certificate: *.xz.fbcdn.net
++ Hostname '31.13.68.35' does not match certificate's names: *.facebook.com, *.facebook.net, *.fbcdn.net, *.fbsbx.com, *.m.facebook.com, *.messenger.com, *.xx.fbcdn.net, *.xy.fbcdn.net, *.xz.fbcdn.net, facebook.com, messenger.com
++ Server banner has changed from '' to 'proxygen-bolt' which may suggest a WAF, load balancer or proxy is in place
++ Uncommon header 'proxy-status' found, with contents: http_request_error; e_clientaddr="AcKAT0iGahuz36oomJ6YeZr2zAE3tLrlO03c2CiMjt8Cud2kN9wyinBYF5pP3nSh3GOcYUo9hBpqag"; e_fb_vipaddr="AcJUrqV7-Q0VLoC6b8mYAnCCWzJhdbwH8G-ry4z-3LGtEcEsBGcrydH_uLj2x8FJx9_ZYbg"; e_fb_builduser="AcLLvAP2JWX1k1i6aU-oRNuSc4_M-Fav7ZMRTcNFRjU1Uu7_J4yXJkFetiWJZSC4oPc"; e_fb_binaryversion="AcKiyQ3TO3q6AKpjgg-f9ZjxnKI9XxKxb6CroMr2sCPbTRs9aHaQ0uWVYPaffCTUr3LyYDVMrLDpHhexMDD3Z9gBnVnr-dYuQRM"; e_proxy="AcIe-S-lwL4vfVtwBIHqOf_NM5J-lVHbYtsfqBbS7vZglmh9tiWMHKRIxdP1FQhgd-CkwPc2DhE0FDs"
++ Uncommon header 'document-policy' found, with contents: force-load-at-top
++ Uncommon header 'x-fb-rlafr' found, with contents: 0
++ Uncommon header 'report-to' found, with contents: {"max_age":259200,"endpoints":[{"url":"https:\/\/www.facebook.com\/ajax\/browser_error_reports\/?device_level=unknown"}]}
++ 562 requests: 0 error(s) and 24 item(s) reported on remote host
++ End Time:           2022-10-12 11:49:04 (GMT7) (183 seconds)
+---------------------------------------------------------------------------
++ 1 host(s) tested
+- Nikto v2.1.6
+---------------------------------------------------------------------------
++ Target IP:          31.13.68.35
++ Target Hostname:    31.13.68.35
++ Target Port:        443
+---------------------------------------------------------------------------
++ SSL Info:        Subject:  /C=US/ST=California/L=Menlo Park/O=Facebook, Inc./CN=*.facebook.com
+                   Altnames: *.facebook.com, *.facebook.net, *.fbcdn.net, *.fbsbx.com, *.m.facebook.com, *.messenger.com, *.xx.fbcdn.net, *.xy.fbcdn.net, *.xz.fbcdn.net, facebook.com, messenger.com
+                   Ciphers:  TLS_CHACHA20_POLY1305_SHA256
+                   Issuer:   /C=US/O=DigiCert Inc/OU=www.digicert.com/CN=DigiCert SHA2 High Assurance Server CA
++ Start Time:         2022-10-12 17:00:40 (GMT7)
+---------------------------------------------------------------------------
++ Server: No banner retrieved
++ The anti-clickjacking X-Frame-Options header is not present.
++ The X-XSS-Protection header is not defined. This header can hint to the user agent to protect against some forms of XSS
++ Uncommon header 'x-fb-debug' found, with contents: wgEFT+BEjQpZSzwPJ9S4NyZ+hh6d8Pc6EzFIxBuCure1PwxEpI3afQt8i9piP2u3UWCaWyqHs2/IZyS7PXmXww==
++ Uncommon header 'alt-svc' found, with contents: h3=":443"; ma=86400, h3-29=":443"; ma=86400
++ The site uses SSL and the Strict-Transport-Security HTTP header is not defined.
++ The site uses SSL and Expect-CT header is not present.
++ The X-Content-Type-Options header is not set. This could allow the user agent to render the content of the site in a different fashion to the MIME type
++ Root page / redirects to: https://www.facebook.com/
++ Uncommon header 'priority' found, with contents: u=3,i
++ No CGI Directories found (use '-C all' to force check all possible dirs)
++ X-XSS-Protection header has been set to disable XSS Protection. There is unlikely to be a good reason for this.
++ Uncommon header 'cross-origin-opener-policy' found, with contents: same-origin-allow-popups
++ Server is using a wildcard certificate: *.facebook.com
++ Server is using a wildcard certificate: *.facebook.net
++ Server is using a wildcard certificate: *.fbcdn.net
++ Server is using a wildcard certificate: *.fbsbx.com
++ Server is using a wildcard certificate: *.m.facebook.com
++ Server is using a wildcard certificate: *.messenger.com
++ Server is using a wildcard certificate: *.xx.fbcdn.net
++ Server is using a wildcard certificate: *.xy.fbcdn.net
++ Server is using a wildcard certificate: *.xz.fbcdn.net
++ Hostname '31.13.68.35' does not match certificate's names: *.facebook.com, *.facebook.net, *.fbcdn.net, *.fbsbx.com, *.m.facebook.com, *.messenger.com, *.xx.fbcdn.net, *.xy.fbcdn.net, *.xz.fbcdn.net, facebook.com, messenger.com
++ Server banner has changed from '' to 'proxygen-bolt' which may suggest a WAF, load balancer or proxy is in place
++ Uncommon header 'proxy-status' found, with contents: http_request_error; e_clientaddr="AcJb-V0jzviZPTlIX1mb3krGPSt0A2Gs918ECh96tMTXwYDDUy1jxUzCPVeF5YlukQlzO4nxhyZtsPmsEfO7"; e_fb_vipaddr="AcL1orGAWaNp1cM3dtEXly21rDecE6E5w7OKy5iYOm0JE36H8e0YOJMB9kNBqXpC4zDeLo8"; e_fb_builduser="AcKMksmkEXdkbSNrSbLYN8c8D5HVHLX1PGZcZbqpNaVD5unbmH0r2wLjWqLi6B-jS-s"; e_fb_binaryversion="AcKLdr-lDKAARytubYPKQfZLTUuWQvBkvVZaKYr4Y9QT8RyXCcL-cqu7Yp7V-koLq1VT3gDvgt-fq54G7-QovRnd1RShkdYHfck"; e_proxy="AcL7m9zbObngZ5obfVFYWijp2gIdm_o15CvV_UW_8f0VXFNmWf_n9q5c-CfUmV94aP_UakI-Hy-ASjY"
++ Uncommon header 'x-fb-rlafr' found, with contents: 0
++ Uncommon header 'document-policy' found, with contents: force-load-at-top
++ Uncommon header 'report-to' found, with contents: {"max_age":259200,"endpoints":[{"url":"https:\/\/www.facebook.com\/ajax\/browser_error_reports\/?device_level=unknown"}]}
++ 562 requests: 0 error(s) and 24 item(s) reported on remote host
++ End Time:           2022-10-12 17:03:33 (GMT7) (173 seconds)
+---------------------------------------------------------------------------
++ 1 host(s) tested

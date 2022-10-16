@@ -1,0 +1,36 @@
+- Nikto v2.1.6
+---------------------------------------------------------------------------
++ Target IP:          31.13.68.35
++ Target Hostname:    31.13.68.35
++ Target Port:        80
++ Start Time:         2022-10-12 11:49:07 (GMT7)
+---------------------------------------------------------------------------
++ Server: proxygen-bolt
++ The anti-clickjacking X-Frame-Options header is not present.
++ The X-XSS-Protection header is not defined. This header can hint to the user agent to protect against some forms of XSS
++ The X-Content-Type-Options header is not set. This could allow the user agent to render the content of the site in a different fashion to the MIME type
++ Root page / redirects to: https://31.13.68.35/
++ No CGI Directories found (use '-C all' to force check all possible dirs)
++ Uncommon header 'proxy-status' found, with contents: http_request_error; e_clientaddr="AcKmLseSCohgHlKGN9z0Lly_f-kihzB1EFHcPGsSrYioOJg4-ZJE4Xf1CGa9bZty2i4qRL79NdCqWg"; e_fb_vipaddr="AcK9K1YRev_1HAtoPnRmznHPcbwWVIL1Nj8I-HwvL3IW4YhXD6zsT_NPnjUZbwPJ7kbL-X8"; e_fb_builduser="AcITAGjRq409X8Mk_MgYyHi2yivrfViA7WyxxA7f-Xt8TEZl7YcyVCYD0jplzYCTfrc"; e_fb_binaryversion="AcKyfvMdeDrxKDM5iRQHw3-iEjM40iiYdHggm66N0zX0pKDs_zXdJgcBORDOFEG6XEECLtlkvfyTX9wDHDPX5BhNxoXxOrZHD0c"; e_proxy="AcL_eaE6TIp9l9hNPIQRAkWKP2dbEX4Cx9HdNKSLP_w3vstCye77wz3afWMtpsSQ7TZaCGfNsU-CJIA"
++ 562 requests: 0 error(s) and 4 item(s) reported on remote host
++ End Time:           2022-10-12 11:49:19 (GMT7) (12 seconds)
+---------------------------------------------------------------------------
++ 1 host(s) tested
+- Nikto v2.1.6
+---------------------------------------------------------------------------
++ Target IP:          31.13.68.35
++ Target Hostname:    31.13.68.35
++ Target Port:        80
++ Start Time:         2022-10-12 17:03:47 (GMT7)
+---------------------------------------------------------------------------
++ Server: proxygen-bolt
++ The anti-clickjacking X-Frame-Options header is not present.
++ The X-XSS-Protection header is not defined. This header can hint to the user agent to protect against some forms of XSS
++ The X-Content-Type-Options header is not set. This could allow the user agent to render the content of the site in a different fashion to the MIME type
++ Root page / redirects to: https://31.13.68.35/
++ No CGI Directories found (use '-C all' to force check all possible dirs)
++ Uncommon header 'proxy-status' found, with contents: http_request_error; e_clientaddr="AcL2HTSekkcOLgbDjrATTw71URZ47T0IqOBWCY2vDOH8YkYccS4cJNnhOFjeN7m6jafTbQIVa-SVU7pdL0YG"; e_fb_vipaddr="AcJ6tobiI2NYXKr12fqqQB9-dCO_Lqr4CW2strWD64uxo_INI2wyk4VeUq7yjDW3vWcoRrc"; e_fb_builduser="AcJCZic0B5fVUIkQ2I0tlqS0cftZfK32Wo1fIPiSeI2krXaEWTU3jwCd-qrzXkHPqHM"; e_fb_binaryversion="AcIJkDmJ8P8qX65H6guMEYQ4ZH4r3GKlA9_2WihEJ2bHa5GWwspBW5us-ci8MnWf9qRE92nkxLP5CAH2F-Cg7es-VQvuhO5pzvU"; e_proxy="AcJExdQaaaQC02Eevb1tfvHFiH3868Yim573PiEnqc-CpxKKQOhUYLAuSMc0DnN6uFxpK9w17qFNitE"
++ 562 requests: 0 error(s) and 4 item(s) reported on remote host
++ End Time:           2022-10-12 17:04:00 (GMT7) (13 seconds)
+---------------------------------------------------------------------------
++ 1 host(s) tested

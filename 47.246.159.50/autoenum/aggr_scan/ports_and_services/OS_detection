@@ -1,0 +1,4 @@
+Retrying OS detection (try #2) against 47.246.159.50
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+OS fingerprint not ideal because: Missing a closed TCP port so results incomplete
+No OS matches for host

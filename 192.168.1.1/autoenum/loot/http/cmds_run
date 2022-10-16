@@ -1,0 +1,14 @@
+uniscan -u http://192.168.1.1 -qweds
+sslscan --show-certificate 192.168.1.1:80 
+nikto -h 192.168.1.1
+gobuster dir -re -t 45 -u 192.168.1.1 -w /usr/share/wordlists/dirb/common.txt
+curl -sSiK 192.168.1.1
+curl -sSiK 192.168.1.1/robots.txt
+whatweb -v -a 3 192.168.1.1
+uniscan -u http://192.168.1.1 -qweds
+sslscan --show-certificate 192.168.1.1:80 
+nikto -h 192.168.1.1
+gobuster dir -re -t 45 -u 192.168.1.1 -w /usr/share/wordlists/dirb/common.txt
+curl -sSiK 192.168.1.1
+curl -sSiK 192.168.1.1/robots.txt
+whatweb -v -a 3 192.168.1.1
